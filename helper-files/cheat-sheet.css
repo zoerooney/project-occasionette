@@ -1,0 +1,67 @@
+/* ========================== *
+ *  OCCASIONETTE CHEAT SHEET  *
+ * ========================== */
+
+
+/* Colors
+ * -------------------------- */
+.dark-brown {
+	color: #372522;
+}
+.pink {
+	color: #ff8874;
+}
+.yellow {
+	color: #fcd566;
+}
+.taupe {
+	color: #a0897b;
+}
+.off-white {
+	color: #fafafa;
+}
+
+
+/* Text
+ * -------------------------- */
+
+.logo {
+	Pompiere
+	60px
+	0.025 (letter-spacing)
+}
+h2 {
+	Pompiere
+	21px
+	0.1 (letter-spacing)
+}
+h3 {
+	same as h2, but 18px
+}
+
+
+body {
+	Open Sans
+	Regular
+	15px
+	21px line-height
+	0.05 letter-spacing
+}
+small {
+	font-size: 13px;
+	normal letter-spacing
+	normal line-height
+}
+
+nav is 16px 0.1 letter-spacing
+lists and submits are semi-bold, 12px 0.2 letter-spacing and 13px 0.1 letter-spacing respectively
+text/ email inputs are regular italic, 13px with 0.1 letter-spacing
+
+
+/* Other Notes
+ * -------------------------- */
+ 
+Logo is rotated -10 degrees
+Best of Philly is rotated about 10 degrees
+Menu background has 6px rounded corners
+Yellow borders are 2px

@@ -1,0 +1,255 @@
+@import url('reset.css');
+@import url('fonts/stylesheet.css');
+
+/* 
+font-family: 'Pompiere', cursive;
+font-family: 'Sacramento', cursive;
+font-family: 'OpenSans'; italic, bold
+font-family: 'OpenSansSemibold';
+*/
+
+
+/* GENERAL */
+
+body {
+	font-family: 'OpenSans';
+	font-size: 15px;
+	line-height: 1.4;
+	letter-spacing: 0.05em;
+	color: #372522;
+	background: #fff url('images/back_pattern.png');
+	margin:0;
+	padding:0;
+	min-width:1172px;
+}
+.row {
+	width: 1142px;
+	padding:0 15px;
+	margin: 0 auto 30px;
+}
+.left,
+.center {
+	float:left;
+	margin-right:43px;
+}
+.right {
+	float:right;
+}
+.box {
+	background:#fafafa;
+}
+.group {
+	content: "";
+	display: table;
+	clear: both;
+}
+.centered {
+	text-align:center;
+}
+.small {
+	font-size:13px;
+	letter-spacing: normal;
+}
+p {
+	margin-bottom: 1em
+}
+a {
+	text-decoration:none;
+}
+h2, h3 {
+	font-family:'Pompiere';
+	color:#a0897b;
+	text-transform: uppercase;
+}
+h2 {
+	font-size:21px;
+	margin:30px 0 0;
+}
+h3 {
+	font-size:18px;
+	margin:0 0 10px;
+}
+
+/* HEADER */
+
+header {
+	background: #372522;
+	width:100%;
+	height:100px;
+	margin-bottom: 60px;
+	position:relative;
+}
+header h1 {
+	font-family: 'Pompiere', cursive;
+	font-size:60px;
+	line-height: 60px;
+	letter-spacing: 0.05em;
+	background:#fcd566;
+	color:#ff8874;
+	padding: 8px 10px 5px;
+	display:inline-block;
+	position: relative;
+	top:20px;
+	-moz-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	z-index: 10;
+}
+.badge {
+	position:absolute;
+	top:20px;
+	right:20px;
+	z-index: 15;
+	-moz-transform: rotate(10deg);
+	-webkit-transform: rotate(10deg);
+	-o-transform: rotate(10deg);
+	-ms-transform: rotate(10deg);
+	transform: rotate(10deg);
+}
+header nav {
+	z-index: 5;
+	position: relative;
+	top:27px;
+}
+nav ul {
+	display:inline-block;
+	padding:0 30px;
+}
+header nav ul {
+	background:#ff8874;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	margin-left:60px;
+}
+nav li {
+	list-style:none;
+	display:inline-block;
+	padding: 8px 30px;
+}
+nav li a {
+	color:#fafafa;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+}
+nav li a:hover {
+	color:#372522;
+}
+
+
+/* UPPER ROW */
+
+.intro-box {
+	width: 1072px;
+	padding:40px 36px;
+}
+.intro {
+	width:380px;
+}
+.image {
+	width:610px;
+	height:413px;
+	overflow: hidden;
+	position: relative;
+	outline:2px solid #fcd566;
+	border:5px solid #fff;
+}
+.image img {
+	max-width:608px;
+}
+.caption {
+	position:absolute;
+	bottom:0;
+	right:2px;
+	background:#fcd566;
+	padding:8px 25px;
+	font-family:'Sacramento', cursive;
+	font-size:36px;
+	opacity: 0.9;
+}
+
+/* LOWER ROW */
+
+.box.small {
+	width:320px;
+	height:255px;
+	padding:15px;
+}
+form {
+	margin: 30px auto;
+}
+input {
+	width:280px;
+	margin:5px auto;
+	padding:10px 10px;
+	border:2px solid #fcd566;
+}
+input[type=email] {
+	margin:15px auto 5px;
+}
+input[type=submit] {
+	width:300px;
+	background:#fcd566;
+	color:white;
+	font-size:13px;
+	font-family: 'OpenSansSemibold';
+	letter-spacing: 0.2em;
+}
+input[type=submit]:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+::-webkit-input-placeholder {
+	color:#fcd566;
+	font-style:italic;
+}
+placeholder {
+	color:#fcd566;
+	font-style:italic;
+}
+.pink-list {
+	color:#ff8874;
+	font-family: 'OpenSansSemibold';
+}
+.instagrams {
+	position: relative;
+}
+.instagrams a:hover img {
+	opacity: 0.8;
+}
+.gram1 {
+	position: absolute;
+	left:20px;
+	top:20px;
+	-moz-transform: rotate(-10deg);
+	-webkit-transform: rotate(-10deg);
+	-o-transform: rotate(-10deg);
+	-ms-transform: rotate(-10deg);
+	transform: rotate(-10deg);
+	z-index: 10;
+}
+.gram2 {
+	position: absolute;
+	right:20px;
+	top:30px;
+	-moz-transform: rotate(5deg);
+	-webkit-transform: rotate(5deg);
+	-o-transform: rotate(5deg);
+	-ms-transform: rotate(5deg);
+	transform: rotate(5deg);
+	z-index: 5;
+}
+
+/* FOOTER */
+
+.footer {
+	width: 1112px;
+	padding: 20px 15px;
+	background:#a0897b;
+	text-align:center;
+}
+.copyright {
+	font-size:12px;
+	letter-spacing: 0.1em;
+}
